@@ -62,7 +62,7 @@ public class RockPaperScissors {
             System.out.print("\n");
             System.out.print("Enter Y to play again: ");
             String playAgainYN = consoleIn.nextLine().toUpperCase();
-;
+
             //if the user doesn't enter Y
             if (!playAgainYN.equals("Y")) {
                 userIsDonePlaying = true;
